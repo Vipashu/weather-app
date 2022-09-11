@@ -6,10 +6,10 @@ import './App.css';
 function App() {
 
 
-  const apiKey = "c9f7e703d48c6901579daa1536d9cb49"
+  
   const [inputCity, setInputCity] = useState("")
   const [data, setData] = useState({})
-
+  const apiKey= process.env.REACT_APP_apiKey
 
   const getWeatherDetails = (cityName) => {
     if (!cityName) return
