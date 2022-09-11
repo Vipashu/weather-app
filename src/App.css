@@ -1,5 +1,9 @@
 .weatherBg{
+<<<<<<< HEAD
   margin-top: 50px;
+=======
+  margin-top:50px;
+>>>>>>> d3d9dbad86fbe0af14817c77838b5b3489e201c9
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -14,7 +18,11 @@
 }
 
 .weatherResultBox{
+<<<<<<< HEAD
   background-color: white;
+=======
+  background-color:white;
+>>>>>>> d3d9dbad86fbe0af14817c77838b5b3489e201c9
   margin: auto;
   width: 500px;
   height: 300px;
